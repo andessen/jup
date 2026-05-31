@@ -1,6 +1,6 @@
 # IntentSpec: jup
 
-**Last updated:** 2026-05-31 (BOOTSTRAP -- pending owner ratification)
+**Last updated:** 2026-05-31 (RATIFIED by owner 2026-05-31)
 **Lifecycle stage:** Build-Ship (released to PyPI; active iteration; current branch `fix/windows-fcntl-compat`)
 **Priority:** Medium (publishable open-source tool; complements anima_shell)
 **Ceremony tier:** Full
@@ -97,4 +97,5 @@
 
 | Date | Version | Changes |
 |---|---|---|
-| 2026-05-31 | 0.1.0 | BOOTSTRAP -- IntentSpec synthesized from existing README + AGENTS.md ("Mandates & Core Workflows" section) by intent-alignment Phase 4. 5 outcomes anchored on multi-harness fidelity, lockfile-driven reproducibility, cross-platform reliability, code-quality discipline, self-documenting CLI. 7 Hard constraints lifted verbatim from AGENTS.md mandates. Pending owner ratification. |
+| 2026-05-31 | 0.1.0 | BOOTSTRAP -- IntentSpec synthesized from existing README + AGENTS.md ("Mandates & Core Workflows" section) by intent-alignment Phase 4. 5 outcomes anchored on multi-harness fidelity, lockfile-driven reproducibility, cross-platform reliability, code-quality discipline, self-documenting CLI. 7 Hard constraints lifted verbatim from AGENTS.md mandates. |
+| 2026-05-31 | 1.0.0 | **Ratified by owner.** Bootstrap caveat removed; this is the committed intent of record. |

@@ -1,11 +1,11 @@
 # Design Document: jup
 
 Date: 2026-05-31
-Version: 1.0.0 (BOOTSTRAP, Full tier)
+Version: 1.0.0 (ratified 2026-05-31, Full tier)
 Type: Design Document
 Governance: currency edits = agent-autonomous; new design decisions = collaborative; subordinate to `.axiom/intentspec.md`.
 
-> **Bootstrap status.** First Design Document for jup, drafted by intent-alignment Phase 4.5. Full tier (112 tracked files: 69 py + 29 md; published PyPI tool). Pending owner ratification.
+> **Ratified 2026-05-31 (owner).** First Design Document for jup, drafted by intent-alignment Phase 4.5. Full tier (112 tracked files: 69 py + 29 md; published PyPI tool). All 8 ADRs accepted.
 
 ## 1. Goals and Intent Link
 
@@ -117,7 +117,7 @@ Consequences: significant changes carry an adversarial-pass record; the cost is 
 - **Per-harness directory contract drift:** harnesses occasionally change their skill-directory format; the `DEFAULT_HARNESSES` registry must keep pace (ADR-001 makes adding/updating mechanical; the alertness is a maintenance commitment).
 - **anima_shell boundary:** jup and anima_shell both touch skills; clarity on which is the operator's primary depends on operator-vs-publishable-tool framing (IntentSpec Strategic Context names this).
 - **Adversarial-test infra (`.gemini/agents/`):** Gemini-specific fixture currently; cross-harness adversarial fixtures would broaden coverage.
-- **Bootstrap ratification:** IntentSpec + design.md pending owner sign-off.
+- **Ratified 2026-05-31** (owner). IntentSpec v1.0.0 + design.md v1.0.0 are the committed governance of record. Bootstrap currently lives on `fix/windows-fcntl-compat`; cherry-picked to main 2026-05-31 so the governance layer is on both branches.
 
 ## References
 
