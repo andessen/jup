@@ -48,6 +48,12 @@ To maintain high standards for the `jup` codebase and its evolution, the followi
     *   `src/jup/models.py`: Defines Pydantic models for configuration, skill sources, and the `DEFAULT_HARNESSES` registry.
     *   **Internal Storage:** Skills are cached/stored in `~/.jup/skills/` before being synced.
 
+## Governance
+
+- Project intent lives in `.axiom/intentspec.md`; design commitments live in
+  `.axiom/design.md`. Read both before changing CLI scope, sync behavior,
+  harness registry, installer behavior, or release workflow.
+
 ## Mandates & Core Workflows
 
 **ALWAYS** use `uv run ...` instead of `python -m ...` to run commands in the repo, as `uv` ensures the correct environment and dependencies are used.
