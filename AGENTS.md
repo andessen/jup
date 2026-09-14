@@ -50,9 +50,11 @@ To maintain high standards for the `jup` codebase and its evolution, the followi
 
 ## Governance
 
-- Project intent lives in `.axiom/intentspec.md`; design commitments live in
-  `.axiom/design.md`. Read both before changing CLI scope, sync behavior,
-  harness registry, installer behavior, or release workflow.
+Resolve project `jup` through the [canonical project registry](https://github.com/andessen/project_docs/blob/main/projects/registry.json). Read the [canonical project intent](https://github.com/andessen/project_docs/blob/main/projects/jup/INTENT.md) and [implementation design](docs/design.md) before changing CLI scope, sync behavior, the harness registry, installer behavior, or the release workflow.
+
+Specification and LLM Systems are the required disciplines for this agent-skill distribution tool. Apply [Specification review](https://github.com/andessen/spec_discipline/blob/main/reviewers/specification-code-review.md) and [LLM Systems review](https://github.com/andessen/llm_systems_discipline/blob/main/reviewers/llm-systems-code-review.md) to the complete proposed diff at its exact revision. Preserve coverage, evidence, limitations, and unresolved findings. Registration does not activate a merge gate.
+
+Axiom methodology is retired and must not be installed or used as project authority. Custos may provide structural verifier evidence, but it does not replace project authority or discipline review.
 
 ## Mandates & Core Workflows
 
